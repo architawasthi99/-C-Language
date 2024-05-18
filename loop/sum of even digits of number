@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+    int n,sum=0,lastdigit;
+    printf("enter the number : ");
+    scanf("%d",&n);
+    while(n!=0)
+    {
+        lastdigit=n%10;
+        if(lastdigit%2==0)
+        {
+           sum=sum+lastdigit;
+           printf("THE SUM OF EVEN DIGIITS OF THE GIVEN NUMBER IS: %d",sum);
+        }
+        else
+        {
+            printf("NO EVEN DIGITS ARE PRESENT IN %d",n);
+            break;
+        }
+        n=n/10;
+    }
+    return 0;
+}
