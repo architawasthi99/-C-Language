@@ -10,7 +10,7 @@ int main()
         if(lastdigit%2==0)
         {
            sum=sum+lastdigit;
-           printf("THE SUM OF EVEN DIGIITS OF THE GIVEN NUMBER IS: %d",sum);
+           
         }
         else
         {
@@ -19,5 +19,6 @@ int main()
         }
         n=n/10;
     }
+    printf("THE SUM OF EVEN DIGITS OF THE GIVEN NUMBER IS: %d",sum);
     return 0;
 }
