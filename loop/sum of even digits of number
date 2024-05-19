@@ -12,11 +12,6 @@ int main()
            sum=sum+lastdigit;
            
         }
-        else
-        {
-            printf("NO EVEN DIGITS ARE PRESENT IN %d",n);
-            break;
-        }
         n=n/10;
     }
     printf("THE SUM OF EVEN DIGITS OF THE GIVEN NUMBER IS: %d",sum);
